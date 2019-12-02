@@ -11,6 +11,7 @@ public class User {
     private String lastName;
     private int age;
     private String email;
+    private String location;
 
     public String getId() {
         return id;
@@ -50,5 +51,13 @@ public class User {
 
     public void setEmail(String email) {
         this.email = email;
+    }
+
+    public String getLocation() {
+        return location;
+    }
+
+    public void setLocation(String location) {
+        this.location = location;
     }
 }

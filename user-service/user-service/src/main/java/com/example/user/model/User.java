@@ -12,6 +12,7 @@ public class User {
     private int age;
     private String email;
     private String location;
+    private String dob;
 
     public String getId() {
         return id;
@@ -39,6 +40,14 @@ public class User {
 
     public int getAge() {
         return age;
+    }
+
+    public String getDob() {
+        return dob;
+    }
+
+    public void setDob(String dob) {
+        this.dob = dob;
     }
 
     public void setAge(int age) {
